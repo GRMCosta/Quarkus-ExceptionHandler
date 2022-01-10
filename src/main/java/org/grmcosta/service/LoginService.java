@@ -23,7 +23,7 @@ public class LoginService {
   public UserResponse login(UserRequest userRequest) {
     validateUsername(userRequest);
     var user = mockyClient.login();
-    userIsActive(user);
+    //userIsActive(user);
     return user;
   }
 
