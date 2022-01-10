@@ -10,7 +10,7 @@ import javax.ws.rs.core.Response;
 import org.grmcosta.data.UserRequest;
 import org.grmcosta.service.LoginService;
 
-@Path("/hello")
+@Path("/poc")
 public class LoginResource {
 
   @Inject
